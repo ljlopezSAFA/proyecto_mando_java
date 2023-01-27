@@ -30,7 +30,7 @@ public class GenerarDatos {
             mando.setTienePilas(faker.bool().bool());
             mando.setTeclas(new ArrayList<>());
 
-            int numeroAleatorio = faker.number().numberBetween(1, 15);
+            int numeroAleatorio = faker.number().numberBetween(10, 20);
             for (int x = 0; x < numeroAleatorio; x++) {
 
                 Tecla tecla = new Tecla();

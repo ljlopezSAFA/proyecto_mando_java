@@ -17,6 +17,9 @@ public class Prueba {
         System.out.println(numTeclas);
 
 
+        Mando mando = new Mando();
+
+
 
 
     }
